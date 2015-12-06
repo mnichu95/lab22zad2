@@ -1,0 +1,16 @@
+package zad2po;
+
+import java.util.List;
+
+public class ReceiveLifo extends MyAbstract{
+	
+	Queue queue= new Queue();
+
+	public void Receiving() {
+		System.out.println(((List<Message>) queue.jetta()).size());
+		for (int i = 0; i < ((List<Message>) queue.jetta()).size(); i++) {
+			System.out.println(((List<Message>) queue.jetta()).get(i));
+		}
+	}
+
+}

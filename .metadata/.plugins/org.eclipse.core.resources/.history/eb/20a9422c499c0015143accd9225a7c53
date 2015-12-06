@@ -1,0 +1,32 @@
+package zad2po;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Queue {
+	static List<Message> list = new LinkedList<>();
+
+	public void jessy() {
+		int how = 0;
+		how = readLineInt();
+		for (int i = 0; i < how; i++) {
+			list.add(new Message(readLineInt(), readLine(), Priority
+					.valueOf(readLine())));
+		}
+	}
+
+	public String readLine() {
+		Scanner scanner = new Scanner(System.in);
+		String keyboardString = scanner.nextLine();
+		return keyboardString;
+	}
+
+	public int readLineInt() {
+		Scanner scanner = new Scanner(System.in);
+		int keyboardInt = scanner.nextInt();
+		return keyboardInt;
+
+	}
+
+}

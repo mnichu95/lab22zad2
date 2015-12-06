@@ -1,0 +1,17 @@
+package zad2po;
+
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class Queue {
+
+	public static void main(String[] args){
+
+		
+		List<Message> list = new LinkedList<>();
+		list.add(new Message("100","lala",Priority.LOW));
+		System.out.println(list.get(0));
+	}
+	
+}

@@ -1,0 +1,28 @@
+package zad2po;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Message {
+	
+	
+	private String id;
+	private String text;
+	private Priority priority ;
+	
+	
+	Message(String id, String text, Priority priority) {
+		this.id=id;
+		this.text=text;
+		this.priority=priority;
+		
+	}
+
+	
+	@Override
+	public  Object toString(Object Message ) {
+			return Message;
+	}
+	
+	
+}

@@ -1,0 +1,19 @@
+package zad2po;
+
+public class Receive extends MyAbstract{
+
+Queue queue= new Queue();
+
+
+public void Receiving() {
+	
+}
+
+
+		
+		
+	}
+	
+	
+
+}

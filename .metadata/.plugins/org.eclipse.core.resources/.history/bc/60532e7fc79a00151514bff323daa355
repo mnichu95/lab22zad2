@@ -1,0 +1,25 @@
+package zad2po;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Message {
+	
+	private int id;
+	private String text;
+	
+	
+	Message(int id, String text) {
+		this.id=id;
+		this.text=text;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return text;
+		
+	}
+	
+	
+}
