@@ -27,10 +27,10 @@ public class Menu {
 				;
 				break;
 			case ("receiving fifo"):
-				receivefifo.Receiving();
+				receivefifo.receiving();
 				break;
 			case ("receiving lifo"):
-				receivelifo.Receiving();
+				receivelifo.receiving();
 				break;
 
 			}
